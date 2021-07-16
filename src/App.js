@@ -5,33 +5,7 @@ import Search from './components/Search';
 import Header from './components/Header';
 
 const App = () => {
-    const [notes, setNotes] = useState([
-        {
-            id: nanoid(),
-            text: 'This is my first react app',
-            date: '15/04/2021',
-        },
-        {
-            id: nanoid(),
-            text: 'This is my second react app',
-            date: '16/04/2021',
-        },
-        {
-            id: nanoid(),
-            text: 'This is my third react app',
-            date: '17/04/2021',
-        },
-        {
-            id: nanoid(),
-            text: 'This is my foourth react app',
-            date: '18/04/2021',
-        },
-        {
-            id: nanoid(),
-            text: 'This is my fifth react app',
-            date: '19/04/2021',
-        },
-    ]);
+    const [notes, setNotes] = useState([]);
 
     const [searchText, setSearchText] = useState('');
 
