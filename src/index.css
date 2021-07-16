@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.container {
+    background-color: #b5eaea;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 100vh;
+}
+
+.notes-list {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.note.new {
+    background-color: #beaee2;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    background-color: #beaee2;
+    color: white;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.save {
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.save:hover {
+    background-color: #f7dbf0;
+    cursor: pointer;
+    transform: scale(1.25);
+    color: black;
+}
+
+.note {
+    background-color: #edf6e5;
+    color: black;
+    /* box-shadow: inset 0px 0px 10px 1px black; */
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.note-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+.delete-icon:hover {
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.search input {
+    border: none;
+    background-color: rgb(233, 233, 233);
+}
+
+.search input:focus {
+    outline: none;
+}
