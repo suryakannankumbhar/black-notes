@@ -1,4 +1,6 @@
-<h1>Black Notes</h1>
+[![MasterHead]<img src="/images/banner.gif" />](https://suryakannankumbhar.netlify.app/)
+<br />
+<h1 align="center">Black Notes</h1>
 <p>Black Notes is a Note Taking App Made with <strong>HTML</strong>,<strong> CSS</strong> and<strong> JavaScript</strong>.</p>
 <p>The notes are stored in the<strong> LocalStorage </strong>of the browser.</p>
 <h3>Home-Screen</h3>
