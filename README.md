@@ -13,16 +13,20 @@
 </div>
 <br />
 <h3>Home-Screen</h3>
-<img src="/src/pics/Screenshot%202022-07-07%20002837.png" width="750" title="Home Screen">
+  <kbd><img src="/src/pics/Screenshot%202022-07-07%20002837.png" width="750" title="Home Screen"></kbd>
+ 
 <h3>New Notes</h3>
-<img src="/src/pics/Screenshot%202022-07-07%20003027.png" width="750" title="New Notes">
+   <kbd><img src="/src/pics/Screenshot%202022-07-07%20003027.png" width="750" title="New Notes"></kbd>
+
 <h3>Adding New Notes</h3>
-<img src="/src/pics/Screenshot%202022-07-07%20003108.png" width="750" title="Adding Notes">
+  <kbd><img src="/src/pics/Screenshot%202022-07-07%20003108.png" width="750" title="Adding Notes"></kbd>
+
 <h3>Deleting Notes</h3>
-<img src="/src/pics/Screenshot%202022-07-07%20003216.png" width="750" title="Colorfull Notes">
+  <kbd><img src="/src/pics/Screenshot%202022-07-07%20003216.png" width="750" title="Colorfull Notes"></kbd>
+
 <h3>Searching Notes</h3>
-<img src="/src/pics/Screenshot%202022-07-07%20003251.png" width="750" title="Searching Notes">
-<img src="/src/pics/Screenshot%202022-07-07%20003333.png" width="750" title="Searching Notes">
+  <kbd><img src="/src/pics/Screenshot%202022-07-07%20003251.png" width="750" title="Searching Notes"></kbd>
+  <kbd><img src="/src/pics/Screenshot%202022-07-07%20003333.png" width="750" title="Searching Notes"></kbd>
 
 <br >
 <h3>some github stats?</h3>
